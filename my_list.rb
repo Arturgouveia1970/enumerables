@@ -2,7 +2,7 @@ require_relative './my_enumerables'
 
 class MyList 
 include MyEnumerable
-  
+
 def initialize(*list)
     @list = list
   end
@@ -28,3 +28,10 @@ p(list.filter { |e| e.even? })
 
 
 
+list.all? { |e| e > 5 }
+
+list.any? { |e| e == 2 }
+
+list.any? { |e| e == 5 }
+
+list.filter(&:even?)
