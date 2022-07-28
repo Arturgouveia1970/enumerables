@@ -40,9 +40,9 @@ Feel free to check the issues page.
 Give a :star:️ if you like this project!
 
 ## Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## :memo: License
 This project is MIT licensed.
